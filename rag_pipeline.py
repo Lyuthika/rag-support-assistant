@@ -179,6 +179,7 @@ def answer_question(question, top_k=5):
                 "title": result[4],
                 "source_url": result[5],
                 "similarity": round(result[6], 4),
+                "content":result[3],
             }
         )
 

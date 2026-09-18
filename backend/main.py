@@ -22,6 +22,7 @@ class Citation(BaseModel):
     title: str
     source_url: str
     similarity: float
+    content: str
 
 
 class QueryResponse(BaseModel):

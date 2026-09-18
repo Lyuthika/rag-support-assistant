@@ -1,0 +1,176 @@
+{
+  "configuration": {
+    "api_url": "http://127.0.0.1:8000/query",
+    "groq_model": "openai/gpt-oss-20b"
+  },
+  "results": [
+    {
+      "question": "How do I create a new page?",
+      "answerable": true,
+      "expected_answer": "You can create a new page by pressing Cmd/Ctrl + N, pressing Cmd/Ctrl + Shift + 9 to create a new page or turn the current line into a page, typing /page and pressing Enter, or typing + followed by the page name and selecting the appropriate Add new page option.",
+      "generated_answer": "You can create a new page in Notion in several ways:\n\n1. **Slash command** \u2013 Type\u202f`/page`\u202fin an empty line (or press\u202f`/`, then type \u201cpage\u201d) and press\u202fEnter.  \n2. **+ command** \u2013 Type\u202f`+`\u202ffollowed by the page name, then select **\u201c+ Add new page\u201d** from the dropdown.  \n3. **Keyboard shortcut** \u2013 Press\u202f`\u2318/Ctrl\u202f+\u202fN`\u202f(or\u202f`\u2318/Ctrl\u202f+\u202fOption/Shift\u202f+\u202f9`) to open a new page.",
+      "faithfulness": 1,
+      "answer_correctness": 1,
+      "judge_reason": "All methods listed are supported by the retrieved documentation and match the expected answer.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 4,
+          "similarity": 0.6232
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 2,
+          "similarity": 0.518
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 0,
+          "similarity": 0.3039
+        }
+      ]
+    },
+    {
+      "question": "What keyboard shortcut creates a new page in Notion?",
+      "answerable": true,
+      "expected_answer": "Use Cmd/Ctrl + N to create a new page.",
+      "generated_answer": "Use **cmd\u202f+\u202fN** (Mac) or **ctrl\u202f+\u202fN** (Windows) to create a new page.",
+      "faithfulness": 1,
+      "answer_correctness": 1,
+      "judge_reason": "The answer correctly states the shortcut cmd/ctrl + N, which is supported by the documentation and matches the expected answer.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 0,
+          "similarity": 0.6582
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 4,
+          "similarity": 0.48
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 2,
+          "similarity": 0.4199
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 5,
+          "similarity": 0.3099
+        }
+      ]
+    },
+    {
+      "question": "How can I turn the current line into a page?",
+      "answerable": true,
+      "expected_answer": "Press Cmd/Ctrl + Shift + 9 to create a new page or turn whatever you have on a line into a page.",
+      "generated_answer": "Use the keyboard shortcut: **\u2318/Ctrl\u202f+\u202f\u2325/Shift\u202f+\u202f9**.  \nThis will create a new page or turn the content on the current line into a page.",
+      "faithfulness": 1,
+      "answer_correctness": 1,
+      "judge_reason": "The shortcut cmd/ctrl + option/shift + 9 is documented and matches the expected answer.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 4,
+          "similarity": 0.4231
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 2,
+          "similarity": 0.4092
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 0,
+          "similarity": 0.3764
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 1,
+          "similarity": 0.3468
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 3,
+          "similarity": 0.3184
+        }
+      ]
+    },
+    {
+      "question": "How do I create a page using a slash command?",
+      "answerable": true,
+      "expected_answer": "Type /page and press Enter. This creates a new page and opens it automatically.",
+      "generated_answer": "Type **`/page`** and press\u202fEnter. This inserts a new page block that opens the page automatically.",
+      "faithfulness": 1,
+      "answer_correctness": 1,
+      "judge_reason": "The answer accurately reflects the documentation that /page creates a new page and opens it automatically, matching the expected answer.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 4,
+          "similarity": 0.4652
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 2,
+          "similarity": 0.4042
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 5,
+          "similarity": 0.3666
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 1,
+          "similarity": 0.3058
+        }
+      ]
+    },
+    {
+      "question": "How do I create a new page somewhere else in my workspace?",
+      "answerable": true,
+      "expected_answer": "Type + followed by the name of the page you want to create. Then select Add new page in... from the dropdown and choose the page or database where you want the new page to be added.",
+      "generated_answer": "Type **[[** and the name of the page you want to create, then use your arrow keys to choose **\u2197\u202fAdd new page in\u2026** from the dropdown and pick the page or database where you want it added.  \n(Alternatively, type **+** and the page name, then select **\u2197\u202fAdd new page in\u2026** in the same way.)",
+      "faithfulness": 1,
+      "answer_correctness": 1,
+      "judge_reason": "The answer accurately reflects the documented steps for creating a new page elsewhere, including both [[ and + methods, and matches the expected answer.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 4,
+          "similarity": 0.5681
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 2,
+          "similarity": 0.4056
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 0,
+          "similarity": 0.3262
+        }
+      ]
+    },
+    {
+      "question": "How do I configure Kubernetes in Notion?",
+      "answerable": false,
+      "expected_answer": null,
+      "generated_answer": "I don't have enough information in the knowledge base to answer that question.",
+      "faithfulness": null,
+      "answer_correctness": null,
+      "judge_reason": null,
+      "fallback_correct": true,
+      "retrieved_chunks": []
+    }
+  ],
+  "summary": {
+    "answerable_questions": 5,
+    "unanswerable_questions": 1,
+    "average_faithfulness": 1.0,
+    "average_answer_correctness": 1.0,
+    "unanswerable_fallback_accuracy": 1.0
+  }
+}
