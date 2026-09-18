@@ -1,0 +1,71 @@
+[
+  {
+    "question": "How do I create a new page?",
+    "expected_answer": "You can create a new page by pressing Cmd/Ctrl + N, pressing Cmd/Ctrl + Shift + 9 to create a new page or turn the current line into a page, typing /page and pressing Enter, or typing + followed by the page name and selecting the appropriate Add new page option.",
+    "expected_source_chunks": [
+      {
+        "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+        "chunk_index": 0
+      },
+      {
+        "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+        "chunk_index": 2
+      },
+      {
+        "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+        "chunk_index": 4
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What keyboard shortcut creates a new page in Notion?",
+    "expected_answer": "Use Cmd/Ctrl + N to create a new page.",
+    "expected_source_chunks": [
+      {
+        "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+        "chunk_index": 0
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How can I turn the current line into a page?",
+    "expected_answer": "Press Cmd/Ctrl + Shift + 9 to create a new page or turn whatever you have on a line into a page.",
+    "expected_source_chunks": [
+      {
+        "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+        "chunk_index": 2
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How do I create a page using a slash command?",
+    "expected_answer": "Type /page and press Enter. This creates a new page and opens it automatically.",
+    "expected_source_chunks": [
+      {
+        "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+        "chunk_index": 4
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How do I create a new page somewhere else in my workspace?",
+    "expected_answer": "Type + followed by the name of the page you want to create. Then select Add new page in... from the dropdown and choose the page or database where you want the new page to be added.",
+    "expected_source_chunks": [
+      {
+        "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+        "chunk_index": 4
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How do I configure Kubernetes in Notion?",
+    "expected_answer": null,
+    "expected_source_chunks": [],
+    "answerable": false
+  }
+]

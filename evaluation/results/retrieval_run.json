@@ -1,0 +1,189 @@
+{
+  "configuration": {
+    "api_url": "http://127.0.0.1:8000/query",
+    "top_k": 5,
+    "recall_k_values": [
+      1,
+      3,
+      5
+    ]
+  },
+  "results": [
+    {
+      "question": "How do I create a new page?",
+      "answerable": true,
+      "generated_answer": "To create a new page in Notion:\n\n1. **Keyboard shortcut**  \n   - Press **\u2318/Ctrl + N** (or **\u2318/Ctrl + 9** for the \u201ccreate page\u201d shortcut).  \n\n2. **Slash command**  \n   - Type **/page** and press **Enter** to create a new page.\n\n3. **Quick\u2011create**  \n   - Type **+** followed by the page name, then press **Enter** to create a new page.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 4,
+          "similarity": 0.6232
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 2,
+          "similarity": 0.518
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 0,
+          "similarity": 0.3039
+        }
+      ],
+      "recall_at_k": {
+        "recall@1": 0.3333333333333333,
+        "recall@3": 1.0,
+        "recall@5": 1.0
+      },
+      "mrr": 1.0
+    },
+    {
+      "question": "What keyboard shortcut creates a new page in Notion?",
+      "answerable": true,
+      "generated_answer": "Use either of the following shortcuts:\n\n* **cmd\u202f+\u202fN** (Mac) or **Ctrl\u202f+\u202fN** (Windows/Linux) \u2013 creates a new page.  \n* **cmd\u202f+\u202fOption\u202f+\u202fShift\u202f+\u202f9** (Mac) or **Ctrl\u202f+\u202fAlt\u202f+\u202fShift\u202f+\u202f9** (Windows/Linux) \u2013 creates a new page or turns the current line into a page.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 0,
+          "similarity": 0.6582
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 4,
+          "similarity": 0.48
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 2,
+          "similarity": 0.4199
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 5,
+          "similarity": 0.3099
+        }
+      ],
+      "recall_at_k": {
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0
+      },
+      "mrr": 1.0
+    },
+    {
+      "question": "How can I turn the current line into a page?",
+      "answerable": true,
+      "generated_answer": "Use the keyboard shortcut: **\u2318\u202f/\u202fCtrl\u202f+\u202f\u2325\u202f/\u202fShift\u202f+\u202f9** to turn whatever is on the current line into a new page.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 4,
+          "similarity": 0.4231
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 2,
+          "similarity": 0.4092
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 0,
+          "similarity": 0.3764
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 1,
+          "similarity": 0.3468
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 3,
+          "similarity": 0.3184
+        }
+      ],
+      "recall_at_k": {
+        "recall@1": 0.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0
+      },
+      "mrr": 0.5
+    },
+    {
+      "question": "How do I create a page using a slash command?",
+      "answerable": true,
+      "generated_answer": "To create a new page with a slash command, type **`/page`** at the start of a line (or in a block) and press **Enter**. This inserts a new page and opens it automatically.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 4,
+          "similarity": 0.4652
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 2,
+          "similarity": 0.4042
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 5,
+          "similarity": 0.3666
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 1,
+          "similarity": 0.3058
+        }
+      ],
+      "recall_at_k": {
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0
+      },
+      "mrr": 1.0
+    },
+    {
+      "question": "How do I create a new page somewhere else in my workspace?",
+      "answerable": true,
+      "generated_answer": "Type `+` followed by the name of the page you want to create.  \nWhen the dropdown appears, move to the \u201c\u2197\u202fAdd new page in\u2026\u201d option and press **Enter**.  \nThen select the page or database in your workspace where you\u2019d like the new page to be added.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 4,
+          "similarity": 0.5681
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 2,
+          "similarity": 0.4056
+        },
+        {
+          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "chunk_index": 0,
+          "similarity": 0.3262
+        }
+      ],
+      "recall_at_k": {
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0
+      },
+      "mrr": 1.0
+    },
+    {
+      "question": "How do I configure Kubernetes in Notion?",
+      "answerable": false,
+      "generated_answer": "I don't have enough information in the knowledge base to answer that question.",
+      "retrieved_chunks": [],
+      "fallback_correct": true
+    }
+  ],
+  "summary": {
+    "answerable_questions": 5,
+    "unanswerable_questions": 1,
+    "average_recall@1": 0.6666666666666667,
+    "average_recall@3": 1.0,
+    "average_recall@5": 1.0,
+    "mean_mrr": 0.9,
+    "unanswerable_fallback_accuracy": 1.0
+  }
+}
