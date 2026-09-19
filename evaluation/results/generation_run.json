@@ -8,11 +8,16 @@
       "question": "How do I create a new page?",
       "answerable": true,
       "expected_answer": "You can create a new page by pressing Cmd/Ctrl + N, pressing Cmd/Ctrl + Shift + 9 to create a new page or turn the current line into a page, typing /page and pressing Enter, or typing + followed by the page name and selecting the appropriate Add new page option.",
-      "generated_answer": "You can create a new page in Notion in several ways:\n\n1. **Slash command** \u2013 Type\u202f`/page`\u202fin an empty line (or press\u202f`/`, then type \u201cpage\u201d) and press\u202fEnter.  \n2. **+ command** \u2013 Type\u202f`+`\u202ffollowed by the page name, then select **\u201c+ Add new page\u201d** from the dropdown.  \n3. **Keyboard shortcut** \u2013 Press\u202f`\u2318/Ctrl\u202f+\u202fN`\u202f(or\u202f`\u2318/Ctrl\u202f+\u202fOption/Shift\u202f+\u202f9`) to open a new page.",
+      "generated_answer": "To create a new page in Notion:\n\n1. **Sidebar button** \u2013 Click the **New page** button in your sidebar. A menu appears where you can choose the page type, then give it a title, icon, and add content.\n\n2. **Slash command** \u2013 Press **/** in the editor, then type `/page` (or type \u201c/page\u201d and hit Enter) to add a new page block.\n\n3. **Keyboard shortcut** \u2013 On macOS: `\u2318 + \u2325 + \u21e7 + 9` (or `Ctrl + Alt + Shift + 9` on Windows/Linux) creates a new page.\n\nThese are the supported ways to create a page.",
       "faithfulness": 1,
-      "answer_correctness": 1,
-      "judge_reason": "All methods listed are supported by the retrieved documentation and match the expected answer.",
+      "answer_correctness": 0,
+      "judge_reason": "The answer correctly cites sidebar, slash command, and keyboard shortcut methods that are supported by the documentation, but it omits the Cmd/Ctrl + N shortcut and the + page name method required by the expected answer, so it does not fully answer the question.",
       "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/guides/creating-a-page",
+          "chunk_index": 0,
+          "similarity": 0.6324
+        },
         {
           "source_url": "https://www.notion.com/help/keyboard-shortcuts",
           "chunk_index": 4,
@@ -24,9 +29,14 @@
           "similarity": 0.518
         },
         {
-          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "source_url": "https://www.notion.com/help/sharing-and-permissions",
           "chunk_index": 0,
-          "similarity": 0.3039
+          "similarity": 0.4887
+        },
+        {
+          "source_url": "https://www.notion.com/help/sharing-and-permissions",
+          "chunk_index": 1,
+          "similarity": 0.3484
         }
       ]
     },
@@ -34,10 +44,10 @@
       "question": "What keyboard shortcut creates a new page in Notion?",
       "answerable": true,
       "expected_answer": "Use Cmd/Ctrl + N to create a new page.",
-      "generated_answer": "Use **cmd\u202f+\u202fN** (Mac) or **ctrl\u202f+\u202fN** (Windows) to create a new page.",
+      "generated_answer": "Use\u202f**cmd/ctrl\u202f+\u202fN** to create a new page.",
       "faithfulness": 1,
       "answer_correctness": 1,
-      "judge_reason": "The answer correctly states the shortcut cmd/ctrl + N, which is supported by the documentation and matches the expected answer.",
+      "judge_reason": "The answer correctly states the shortcut cmd/ctrl + N, which is supported by the retrieved documentation and matches the expected answer.",
       "retrieved_chunks": [
         {
           "source_url": "https://www.notion.com/help/keyboard-shortcuts",
@@ -45,19 +55,24 @@
           "similarity": 0.6582
         },
         {
+          "source_url": "https://www.notion.com/help/guides/creating-a-page",
+          "chunk_index": 0,
+          "similarity": 0.6473
+        },
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 1,
+          "similarity": 0.4992
+        },
+        {
           "source_url": "https://www.notion.com/help/keyboard-shortcuts",
           "chunk_index": 4,
           "similarity": 0.48
         },
         {
-          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
-          "chunk_index": 2,
-          "similarity": 0.4199
-        },
-        {
-          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
-          "chunk_index": 5,
-          "similarity": 0.3099
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 0,
+          "similarity": 0.4612
         }
       ]
     },
@@ -65,10 +80,10 @@
       "question": "How can I turn the current line into a page?",
       "answerable": true,
       "expected_answer": "Press Cmd/Ctrl + Shift + 9 to create a new page or turn whatever you have on a line into a page.",
-      "generated_answer": "Use the keyboard shortcut: **\u2318/Ctrl\u202f+\u202f\u2325/Shift\u202f+\u202f9**.  \nThis will create a new page or turn the content on the current line into a page.",
+      "generated_answer": "Use the shortcut **\u2318\u2325\u21e79** (or **Ctrl+Shift+9** on Windows/Linux) to turn the line you\u2019re editing into a new page.",
       "faithfulness": 1,
       "answer_correctness": 1,
-      "judge_reason": "The shortcut cmd/ctrl + option/shift + 9 is documented and matches the expected answer.",
+      "judge_reason": "The shortcut matches the documentation and expected answer.",
       "retrieved_chunks": [
         {
           "source_url": "https://www.notion.com/help/keyboard-shortcuts",
@@ -81,6 +96,11 @@
           "similarity": 0.4092
         },
         {
+          "source_url": "https://www.notion.com/help/guides/creating-a-page",
+          "chunk_index": 0,
+          "similarity": 0.3766
+        },
+        {
           "source_url": "https://www.notion.com/help/keyboard-shortcuts",
           "chunk_index": 0,
           "similarity": 0.3764
@@ -89,11 +109,6 @@
           "source_url": "https://www.notion.com/help/keyboard-shortcuts",
           "chunk_index": 1,
           "similarity": 0.3468
-        },
-        {
-          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
-          "chunk_index": 3,
-          "similarity": 0.3184
         }
       ]
     },
@@ -101,10 +116,10 @@
       "question": "How do I create a page using a slash command?",
       "answerable": true,
       "expected_answer": "Type /page and press Enter. This creates a new page and opens it automatically.",
-      "generated_answer": "Type **`/page`** and press\u202fEnter. This inserts a new page block that opens the page automatically.",
+      "generated_answer": "To create a page with a slash command, type `/page` and press **Enter**. This will insert a new page block and open it automatically.",
       "faithfulness": 1,
       "answer_correctness": 1,
-      "judge_reason": "The answer accurately reflects the documentation that /page creates a new page and opens it automatically, matching the expected answer.",
+      "judge_reason": "The answer accurately reflects the documentation: typing /page and pressing Enter creates a new page that opens automatically, matching the expected answer.",
       "retrieved_chunks": [
         {
           "source_url": "https://www.notion.com/help/keyboard-shortcuts",
@@ -117,14 +132,19 @@
           "similarity": 0.4042
         },
         {
+          "source_url": "https://www.notion.com/help/guides/creating-a-page",
+          "chunk_index": 0,
+          "similarity": 0.3876
+        },
+        {
           "source_url": "https://www.notion.com/help/keyboard-shortcuts",
           "chunk_index": 5,
           "similarity": 0.3666
         },
         {
-          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
-          "chunk_index": 1,
-          "similarity": 0.3058
+          "source_url": "https://www.notion.com/help/sharing-and-permissions",
+          "chunk_index": 0,
+          "similarity": 0.3301
         }
       ]
     },
@@ -132,10 +152,10 @@
       "question": "How do I create a new page somewhere else in my workspace?",
       "answerable": true,
       "expected_answer": "Type + followed by the name of the page you want to create. Then select Add new page in... from the dropdown and choose the page or database where you want the new page to be added.",
-      "generated_answer": "Type **[[** and the name of the page you want to create, then use your arrow keys to choose **\u2197\u202fAdd new page in\u2026** from the dropdown and pick the page or database where you want it added.  \n(Alternatively, type **+** and the page name, then select **\u2197\u202fAdd new page in\u2026** in the same way.)",
+      "generated_answer": "To create a new page elsewhere in your workspace:\n\n1. Type `+` followed by the name of the page you want to create.  \n2. When the dropdown appears, use your cursor or arrow keys to select **\u2197\u202fAdd new page in\u2026**.  \n3. Choose the page or database where you\u2019d like that new page to be added.  \n\n(Alternatively, click the **New page** button in your sidebar, choose a page type, and then move or drag the page into the desired location.)",
       "faithfulness": 1,
       "answer_correctness": 1,
-      "judge_reason": "The answer accurately reflects the documented steps for creating a new page elsewhere, including both [[ and + methods, and matches the expected answer.",
+      "judge_reason": "The answer accurately reflects the documented steps for creating a new page elsewhere and matches the expected answer.",
       "retrieved_chunks": [
         {
           "source_url": "https://www.notion.com/help/keyboard-shortcuts",
@@ -143,14 +163,276 @@
           "similarity": 0.5681
         },
         {
+          "source_url": "https://www.notion.com/help/sharing-and-permissions",
+          "chunk_index": 0,
+          "similarity": 0.5637
+        },
+        {
+          "source_url": "https://www.notion.com/help/guides/creating-a-page",
+          "chunk_index": 0,
+          "similarity": 0.5049
+        },
+        {
           "source_url": "https://www.notion.com/help/keyboard-shortcuts",
           "chunk_index": 2,
           "similarity": 0.4056
         },
         {
-          "source_url": "https://www.notion.com/help/keyboard-shortcuts",
+          "source_url": "https://www.notion.com/help/sharing-and-permissions",
+          "chunk_index": 1,
+          "similarity": 0.3835
+        }
+      ]
+    },
+    {
+      "question": "What is a database in Notion?",
+      "answerable": true,
+      "expected_answer": "Databases in Notion are collections of pages that help you manage and organize multiple pages in one place.",
+      "generated_answer": "A database in Notion is a collection of pages that lets you manage and organize multiple pages in one place. Each item you add to a database is itself a Notion page, and you can add content and properties to those pages.",
+      "faithfulness": 1,
+      "answer_correctness": 1,
+      "judge_reason": "The answer accurately reflects the documentation and matches the expected definition.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
           "chunk_index": 0,
-          "similarity": 0.3262
+          "similarity": 0.7967
+        },
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 1,
+          "similarity": 0.6558
+        },
+        {
+          "source_url": "https://www.notion.com/help/database-properties",
+          "chunk_index": 0,
+          "similarity": 0.5674
+        },
+        {
+          "source_url": "https://www.notion.com/help/guides/creating-a-page",
+          "chunk_index": 0,
+          "similarity": 0.4154
+        },
+        {
+          "source_url": "https://www.notion.com/help/database-properties",
+          "chunk_index": 1,
+          "similarity": 0.4095
+        }
+      ]
+    },
+    {
+      "question": "How do I create a database in Notion?",
+      "answerable": true,
+      "expected_answer": "Create a new page and under Get started with, select Table. You can also open an existing page and use the slash command /database.",
+      "generated_answer": "To create a database in Notion:\n\n1. **Create a new page**  \n   \u2022 Click **New page** in the sidebar.  \n   \u2022 In the \u201cGet started with\u201d section, choose **Table** (or another database type such as Board, List, Calendar, etc.).  \n\n2. **Or use a slash command**  \n   \u2022 Open any page and type **/database** to open the database creation options.  \n\nWhen the database is created you can start from scratch, choose a template, or use an existing data source from your workspace.",
+      "faithfulness": 1,
+      "answer_correctness": 1,
+      "judge_reason": "The generated answer accurately reflects the instructions in the retrieved documentation and fully matches the expected answer.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 0,
+          "similarity": 0.8076
+        },
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 1,
+          "similarity": 0.596
+        },
+        {
+          "source_url": "https://www.notion.com/help/guides/creating-a-page",
+          "chunk_index": 0,
+          "similarity": 0.542
+        },
+        {
+          "source_url": "https://www.notion.com/help/database-properties",
+          "chunk_index": 0,
+          "similarity": 0.5183
+        },
+        {
+          "source_url": "https://www.notion.com/help/database-properties",
+          "chunk_index": 1,
+          "similarity": 0.4617
+        }
+      ]
+    },
+    {
+      "question": "What types of properties can I use in a Notion database?",
+      "answerable": true,
+      "expected_answer": "Notion databases support property types including Text, Number, Select, Status, Multi-Select, Date, Formula, Relation, Rollup, Person, File, Checkbox, URL, Email, Phone, Created time, Created by, Last edited time, Last edited by, Button, ID, and Place.",
+      "generated_answer": "The available property types in a Notion database are:\n\n- Text  \n- Number  \n- Select  \n- Status  \n- Multi\u2011Select  \n- Date  \n- Formula  \n- Relation  \n- Rollup  \n- Person  \n- File Upload  \n- Checkbox  \n- URL  \n- Email  \n- Phone  \n- Created time  \n- Created by  \n- Last edited time  \n- Last edited by  \n- Button  \n- ID  \n- Place",
+      "faithfulness": 1,
+      "answer_correctness": 1,
+      "judge_reason": "All listed property types are supported by the documentation; the only minor difference is \"File Upload\" which corresponds to the \"File\" property type.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/database-properties",
+          "chunk_index": 0,
+          "similarity": 0.6645
+        },
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 0,
+          "similarity": 0.6603
+        },
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 1,
+          "similarity": 0.5769
+        },
+        {
+          "source_url": "https://www.notion.com/help/database-properties",
+          "chunk_index": 3,
+          "similarity": 0.4641
+        },
+        {
+          "source_url": "https://www.notion.com/help/database-properties",
+          "chunk_index": 1,
+          "similarity": 0.4591
+        }
+      ]
+    },
+    {
+      "question": "How do I add a new property to a Notion database?",
+      "answerable": true,
+      "expected_answer": "Click Add property, give the property a name, and choose a property type. If the database already has properties, you can select the + next to the right-most property, give it a name, and choose a property type.",
+      "generated_answer": "To add a new property to a database:\n\n1. Open the database you want to edit.  \n2. Click **Add property** (or click the **+** next to the right\u2011most property).  \n3. Enter a name for the property and choose a property type.  \n4. (In table view) you can also click an existing property and use **Insert left** or **Insert right** to add the new property in the table layout.  \n\nThat creates the new property in the database.",
+      "faithfulness": 1,
+      "answer_correctness": 1,
+      "judge_reason": "All factual claims are supported by the retrieved documentation and the answer fully matches the expected answer.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 0,
+          "similarity": 0.5943
+        },
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 1,
+          "similarity": 0.5557
+        },
+        {
+          "source_url": "https://www.notion.com/help/database-properties",
+          "chunk_index": 0,
+          "similarity": 0.5171
+        },
+        {
+          "source_url": "https://www.notion.com/help/database-properties",
+          "chunk_index": 1,
+          "similarity": 0.5094
+        },
+        {
+          "source_url": "https://www.notion.com/help/guides/creating-a-page",
+          "chunk_index": 0,
+          "similarity": 0.4492
+        }
+      ]
+    },
+    {
+      "question": "How many properties can a Notion database have?",
+      "answerable": true,
+      "expected_answer": "A Notion database can have up to 500 properties.",
+      "generated_answer": "A Notion database can have up to **500 properties**.",
+      "faithfulness": 1,
+      "answer_correctness": 1,
+      "judge_reason": "The claim that a Notion database can have up to 500 properties is directly supported by Source 4, and it matches the expected answer.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 0,
+          "similarity": 0.6324
+        },
+        {
+          "source_url": "https://www.notion.com/help/database-properties",
+          "chunk_index": 0,
+          "similarity": 0.5781
+        },
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 1,
+          "similarity": 0.5621
+        },
+        {
+          "source_url": "https://www.notion.com/help/database-properties",
+          "chunk_index": 3,
+          "similarity": 0.5503
+        },
+        {
+          "source_url": "https://www.notion.com/help/database-properties",
+          "chunk_index": 1,
+          "similarity": 0.4479
+        }
+      ]
+    },
+    {
+      "question": "How do I share a Notion page with someone?",
+      "answerable": true,
+      "expected_answer": "Select Share at the top of the page to invite someone, see and change who has access and their permission level, copy the page link, or open the Publish tab to share the page to the web.",
+      "generated_answer": "To share a Notion page with someone:\n\n1. Open the page you want to share.  \n2. Click **Share** at the top of the page.  \n3. In the Share menu, type the name or email of the person (or group/teamspace) you want to invite.  \n4. Hover over the name/email, click the dropdown next to it, and select a permission level (e.g.,\u202fFull access, Can edit, Can comment, etc.).  \n5. Click **Invite**.  \n\nThe page will now be shared with that person and will appear in the\u202fShared\u202fsection of your sidebar. If the person isn\u2019t in your workspace, you can invite them as a guest by entering their email address.",
+      "faithfulness": 1,
+      "answer_correctness": 0,
+      "judge_reason": "The answer correctly describes sharing via the Share menu and permission levels, but omits copying the link and using the Publish tab, so it does not fully match the expected answer.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/sharing-and-permissions",
+          "chunk_index": 0,
+          "similarity": 0.63
+        },
+        {
+          "source_url": "https://www.notion.com/help/guides/creating-a-page",
+          "chunk_index": 0,
+          "similarity": 0.5528
+        },
+        {
+          "source_url": "https://www.notion.com/help/sharing-and-permissions",
+          "chunk_index": 2,
+          "similarity": 0.5465
+        },
+        {
+          "source_url": "https://www.notion.com/help/sharing-and-permissions",
+          "chunk_index": 1,
+          "similarity": 0.5202
+        },
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 0,
+          "similarity": 0.491
+        }
+      ]
+    },
+    {
+      "question": "How do I change the permissions for a shared Notion page?",
+      "answerable": true,
+      "expected_answer": "You can see and change who has access to a page and what level of permissions they have. The available access levels include options such as Can view, which allows someone to read the page but not comment, edit, or share.",
+      "generated_answer": "To change the permissions for a page you\u2019ve already shared:\n\n1. Open the page.  \n2. Click **Share** in the top\u2011right corner.  \n3. In the list that appears, find the person, group, or teamspace whose access you want to change.  \n4. Click the dropdown next to their name and choose a new **permission level** (Full access, Can edit, Can comment, Can view, etc.).  \n\nIf you want to revoke access entirely, open the same dropdown and select **Remove**.",
+      "faithfulness": 1,
+      "answer_correctness": 1,
+      "judge_reason": "The steps and permission levels match the documentation and the expected answer.",
+      "retrieved_chunks": [
+        {
+          "source_url": "https://www.notion.com/help/sharing-and-permissions",
+          "chunk_index": 2,
+          "similarity": 0.6097
+        },
+        {
+          "source_url": "https://www.notion.com/help/sharing-and-permissions",
+          "chunk_index": 6,
+          "similarity": 0.5819
+        },
+        {
+          "source_url": "https://www.notion.com/help/intro-to-databases",
+          "chunk_index": 1,
+          "similarity": 0.5121
+        },
+        {
+          "source_url": "https://www.notion.com/help/sharing-and-permissions",
+          "chunk_index": 3,
+          "similarity": 0.4991
+        },
+        {
+          "source_url": "https://www.notion.com/help/sharing-and-permissions",
+          "chunk_index": 4,
+          "similarity": 0.4602
         }
       ]
     },
@@ -162,15 +444,15 @@
       "faithfulness": null,
       "answer_correctness": null,
       "judge_reason": null,
-      "fallback_correct": true,
+      "fallback_correct": false,
       "retrieved_chunks": []
     }
   ],
   "summary": {
-    "answerable_questions": 5,
+    "answerable_questions": 12,
     "unanswerable_questions": 1,
     "average_faithfulness": 1.0,
-    "average_answer_correctness": 1.0,
-    "unanswerable_fallback_accuracy": 1.0
+    "average_answer_correctness": 0.8333333333333334,
+    "unanswerable_fallback_accuracy": 0.0
   }
 }

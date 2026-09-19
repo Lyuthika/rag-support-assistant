@@ -63,6 +63,83 @@
     "answerable": true
   },
   {
+    "question": "What is a database in Notion?",
+    "expected_answer": "Databases in Notion are collections of pages that help you manage and organize multiple pages in one place.",
+    "expected_source_chunks": [
+      {
+        "source_url": "https://www.notion.com/help/intro-to-databases",
+        "chunk_index": 0
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How do I create a database in Notion?",
+    "expected_answer": "Create a new page and under Get started with, select Table. You can also open an existing page and use the slash command /database.",
+    "expected_source_chunks": [
+      {
+        "source_url": "https://www.notion.com/help/intro-to-databases",
+        "chunk_index": 0
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "What types of properties can I use in a Notion database?",
+    "expected_answer": "Notion databases support property types including Text, Number, Select, Status, Multi-Select, Date, Formula, Relation, Rollup, Person, File, Checkbox, URL, Email, Phone, Created time, Created by, Last edited time, Last edited by, Button, ID, and Place.",
+    "expected_source_chunks": [
+      {
+        "source_url": "https://www.notion.com/help/database-properties",
+        "chunk_index": 0
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How do I add a new property to a Notion database?",
+    "expected_answer": "Click Add property, give the property a name, and choose a property type. If the database already has properties, you can select the + next to the right-most property, give it a name, and choose a property type.",
+    "expected_source_chunks": [
+      {
+        "source_url": "https://www.notion.com/help/database-properties",
+        "chunk_index": 3
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "question": "How many properties can a Notion database have?",
+    "expected_answer": "A Notion database can have up to 500 properties.",
+    "expected_source_chunks": [
+      {
+        "source_url": "https://www.notion.com/help/database-properties",
+        "chunk_index": 3
+      }
+    ],
+    "answerable": true
+  },
+{
+  "question": "How do I share a Notion page with someone?",
+  "expected_answer": "Select Share at the top of the page to invite someone, see and change who has access and their permission level, copy the page link, or open the Publish tab to share the page to the web.",
+  "expected_source_chunks": [
+    {
+      "source_url": "https://www.notion.com/help/sharing-and-permissions",
+      "chunk_index": 0
+    }
+  ],
+  "answerable": true
+},
+{
+  "question": "How do I change the permissions for a shared Notion page?",
+  "expected_answer": "You can see and change who has access to a page and what level of permissions they have. The available access levels include options such as Can view, which allows someone to read the page but not comment, edit, or share.",
+  "expected_source_chunks": [
+    {
+      "source_url": "https://www.notion.com/help/sharing-and-permissions",
+      "chunk_index": 3
+    }
+  ],
+  "answerable": true
+},
+  {
     "question": "How do I configure Kubernetes in Notion?",
     "expected_answer": null,
     "expected_source_chunks": [],
